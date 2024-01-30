@@ -7,6 +7,7 @@ import {
   Features,
   WhatGPT3,
   Header,
+  StarCanvas,
 } from "./containers";
 import { CTA, Brand, Navbar } from "./components";
 
@@ -21,8 +22,11 @@ const App = () => (
     <Brand />
     <WhatGPT3 />
     <Features />
-    <Possibility />
-    <Blog />
+    <div className="relative z-0">
+      <Possibility />
+      <Blog />
+      <StarCanvas />
+    </div>
     <Footer />
   </div>
 );

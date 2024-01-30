@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import axios from "axios";
 import people from "../../assets/people.png";
 import ai from "../../assets/ai.png";
+import banner from "../../assets/banner.png";
+import tv from "../../assets/tv.png";
+import footage from "../../assets/tv.mp4";
 import "./header.css";
 
 const Header = () => {
@@ -82,8 +85,15 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="gpt3__header-image">
-        <img src={ai} />
+      <div className="gpt3__header-image relative">
+        <video
+          className="absolute top-[48%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[80%] h-[50%]"
+          src={footage}
+          autoPlay
+          loop
+          muted
+        />
+        <img className="" src={tv} alt="footage" />
       </div>
     </div>
   );
