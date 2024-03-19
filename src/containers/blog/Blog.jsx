@@ -26,8 +26,8 @@ const Blog = () => {
     setloading(true);
     try {
       const response = await axios.post(
-        "http://localhost:5000/bute-backend/us-central1/app/cMail",
-        // "https://us-central1-bute-backend.cloudfunctions.net/app/cMail",
+        // "http://localhost:5000/bute-backend/us-central1/app/cMail",
+        "https://us-central1-bute-backend.cloudfunctions.net/app/cMail",
         form
       );
       setloading(false);
