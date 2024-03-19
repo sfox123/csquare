@@ -22,22 +22,23 @@ const Footer = () => (
         {/* <h4 className="gpt3__footer-copyright">Powered by</h4> */}
         <img src={logo} alt="gpt3_logo" />
       </div>
-      <div className="gpt3__footer-links_div">
+      {/* <div className="gpt3__footer-links_div">
         <h4>Company</h4>
         <p>Terms & Conditions </p>
         <p>Privacy Policy</p>
         <p>Contact</p>
-      </div>
-      {/* <div className="gpt3__footer-links_div">
-        <h4>Get in touch</h4>
-        <p>123 UK</p>
-        <p>011-123456</p>
-        <p>creativesquare.net</p>
       </div> */}
+      <div className="gpt3__footer-links_div">
+        <h4>Address - 60 Crawford Road | Hatfield | Hertfordshire | AL10 0PE | UK</h4>
+        <br/>
+        <h4>Contact No. +44 7494 043147</h4>
+        <br/>
+        <h4>Email – info@sharasolutions.co.uk</h4>
+      </div>
     </div>
 
     <div className="gpt3__footer-copyright">
-      <p>@2023. All rights reserved.</p>
+      <p>@2024. Shara Solutions Ltd. All rights reserved.</p>
     </div>
   </div>
 );
