@@ -8,14 +8,14 @@ const Possibility = () => (
       <img src={possibilityImage} alt="possibility" />
     </div>
     <div className="gpt3__possibility-content">
-      <h4>Request Early Access to Get Started</h4>
+      <h4>React-powered web experiences</h4>
       <h1 className="gradient__text">
         The possibilities are <br /> beyond your imagination
       </h1>
       <p>
-        Yet bed any for travelling assistance indulgence unpleasing. Not
-        thoughts all exercise blessing. Indulgence way everything joy alteration
-        boisterous the attachment. Party we years to order allow asked of.
+        Shara Consultancy: Your partner in digital transformation. React-powered
+        experiences, captivating design with CSS, and marketing that drives
+        results. Let's build your online success.
       </p>
       <h4>Let's Ideate to Get Started</h4>
     </div>

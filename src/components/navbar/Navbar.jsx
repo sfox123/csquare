@@ -50,16 +50,10 @@ const Navbar = () => {
                 <a href="#home">Home</a>
               </p>
               <p>
-                <a href="#wgpt3">What is GPT3?</a>
-              </p>
-              <p>
-                <a href="#possibility">Close AI</a>
+                <a href="#wgpt3">Who are we?</a>
               </p>
               <p>
                 <a href="#features">Projects</a>
-              </p>
-              <p>
-                <a href="#blog">Blogs</a>
               </p>
             </div>
             <div className="gpt3__navbar-menu_container-links-sign">

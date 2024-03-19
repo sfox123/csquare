@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 import axios from "axios";
-import people from "../../assets/people.png";
-import ai from "../../assets/ai.png";
-import banner from "../../assets/banner.png";
 import tv from "../../assets/tv.png";
 import footage from "../../assets/tv.mp4";
 import "./header.css";
@@ -55,13 +52,13 @@ const Header = () => {
     <div className="gpt3__header section__padding" id="home">
       <div className="gpt3__header-content">
         <h1 className="gradient__text">
-          Let&apos;s Build Something amazing with Creative Square
+          Let&apos;s Build Something amazing with Shara solutions
         </h1>
         <p>
-          Yet bed any for travelling assistance indulgence unpleasing. Not
-          thoughts all exercise blessing. Indulgence way everything joy
-          alteration boisterous the attachment. Party we years to order allow
-          asked of.
+          Cutting-edge websites and lightning-fast mobile apps – that's our
+          React specialty. Sprinkle in some CSS magic, a dash of Figma/Adobe
+          mastery, plus potent online marketing, and your digital presence
+          explodes!
         </p>
 
         <div className="gpt3__header-content__input">
@@ -78,11 +75,6 @@ const Header = () => {
           <br />
         </div>
         {error && <span style={{ color: "orangered" }}>Input valid email</span>}
-
-        <div className="gpt3__header-content__people">
-          <img src={people} />
-          <p>6+ Engineers from world wide</p>
-        </div>
       </div>
 
       <div className="gpt3__header-image relative">

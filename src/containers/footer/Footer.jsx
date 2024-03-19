@@ -1,6 +1,6 @@
 import React from "react";
 import gpt3Logo from "../../logo.svg";
-import logo from "../../assets/sc.png";
+import logo from "../../assets/logo.png";
 import "./footer.css";
 
 const Footer = () => (
@@ -13,13 +13,13 @@ const Footer = () => (
 
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_logo">
-        <img src={gpt3Logo} alt="gpt3_logo" />
+        {/* <img src={gpt3Logo} alt="gpt3_logo" /> */}
         <p>
-          <br /> All Rights Reserved
+          <br /> "The future is already here, it's just not evenly distributed"
         </p>
       </div>
       <div className="gpt3__footer-links_div">
-        <h4 className="gpt3__footer-copyright">Powered by</h4>
+        {/* <h4 className="gpt3__footer-copyright">Powered by</h4> */}
         <img src={logo} alt="gpt3_logo" />
       </div>
       <div className="gpt3__footer-links_div">
